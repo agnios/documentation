@@ -9,22 +9,28 @@ export default defineConfig({
 		starlight({
 			title: 'AgniOS',
 			logo: {
-				src: './src/assets/logo.svg',
+				src: './public/favicon.svg',
 			},
 			social: {
 				github: 'https://github.com/agnios/',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Overview',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
+						{ label: 'About AgniOS', link: '/about/about/' },
+						{ label: 'Frequently Asked Questions', link: '/about/faq/' },
 					],
 				},
 				{
-					label: 'Reference',
+					label: 'Installation Steps',
 					autogenerate: { directory: 'reference' },
+					// items: [
+					// 	// Each item here is one entry in the navigation menu.
+					// 	{ label: 'About AgniOS', link: '/about/about/' },
+					// 	{ label: 'Frequently Asked Questions', link: '/about/faq/' },
+					// ],
 				},
 			],
 			customCss: [
