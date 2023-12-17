@@ -24,15 +24,15 @@ export default defineConfig({
 						{ label: 'Frequently Asked Questions', link: '/about/faq/' },
 					],
 				},
-				{
-					label: 'Installation Steps',
-					autogenerate: { directory: 'reference' },
-					// items: [
-					// 	// Each item here is one entry in the navigation menu.
-					// 	{ label: 'About AgniOS', link: '/about/about/' },
-					// 	{ label: 'Frequently Asked Questions', link: '/about/faq/' },
-					// ],
-				},
+				// {
+				// 	label: 'Installation Steps',
+				// 	autogenerate: { directory: 'reference' },
+				// 	// items: [
+				// 	// 	// Each item here is one entry in the navigation menu.
+				// 	// 	{ label: 'About AgniOS', link: '/about/about/' },
+				// 	// 	{ label: 'Frequently Asked Questions', link: '/about/faq/' },
+				// 	// ],
+				// },
 			],
 			customCss: [
 				'./src/styles/custom.css',
