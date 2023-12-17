@@ -3,7 +3,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://agnios.github.io',
+	site: 'https://docs.agnios.org',
+	// site: 'https://agnios.github.io',
 	// base: '/documentation',
 	integrations: [
 		starlight({
