@@ -10,7 +10,7 @@ export default defineConfig({
 		starlight({
 			title: 'AgniOS',
 			logo: {
-				src: './public/favicon.svg',
+				src: './public/logo.png',
 			},
 			social: {
 				github: 'https://github.com/agnios/',
